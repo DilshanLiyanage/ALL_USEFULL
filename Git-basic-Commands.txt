@@ -3,8 +3,12 @@ git-basic-commands
 git init - initialize a git repo (exisiting code/ empty)
 git add . - add/stage current directory
 git commit -m "initial commit" - commit the repo
+git commit -a -m "add and commit" - add/stage and commit
 git remote add origin htttps://your-remote-git-repo.git - add remote repo
 git push origin branch-name - create/ update a branch to the remote repo/origin
 git branch branch-name - create new branch from master
 git checkout branch-name - switch to a branch
+git checkout -b branch-name - create and switch
 git merge branch-name - marge a branch with master(should switch to master branch before using checkout)
+git fetch - Sync local with remote(new branches and commits will sync with local)
+git reset --hard - To rollback any changes and reset to default 

@@ -3,3 +3,22 @@
 # To push your project to github - instructions
 
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+
+---- -------------- ----- -------- ------ ----- --  ----- --- 
+** go to directory and initialize git
+  -- git init
+  
+** stage the changes 
+  -- git add .
+  
+** commits those changes 
+  -- git commit -m "First commit"
+  
+** add remote repositary mapping
+  -- git remote add origin {remote repository URL}
+  ** verify it
+  -- git remote -v
+  
+** to push to remote repo
+  -- git push origin master

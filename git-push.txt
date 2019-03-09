@@ -22,3 +22,17 @@ https://help.github.com/articles/adding-an-existing-project-to-github-using-the-
   
 ** to push to remote repo
   -- git push origin master
+
+
+-------------------------------------------
+if you can't push your newly created branch 
+there may be new commit while you working on locally 
+In that case we can use like this 
+
+  -- git pull --rebase origin master
+  -- git push origin master
+
+ Above pull code will get newly commit code 
+ and place your code on top of it 
+ then push it as usual
+-------------------------------------------

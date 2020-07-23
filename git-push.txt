@@ -22,6 +22,12 @@ https://help.github.com/articles/adding-an-existing-project-to-github-using-the-
   
 ** to push to remote repo
   -- git push origin master
+  
+ ** if you want to remove origin and create new origin for connecting local exisitng project with it
+  -- git remote rm origin
+  -- git remote add origin [RepoLink]
+  -- git config master.remote origin
+  -- git config master.merge refs/heads/master
 
 
 -------------------------------------------
